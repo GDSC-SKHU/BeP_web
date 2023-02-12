@@ -10,13 +10,13 @@ const Map = () => {
         </Wrapper>
       </StyledWrapper>
     );
+
   return <div>error</div>;
 };
 
 const StyledWrapper = styled.main`
   display: flex;
   justify-content: center;
-  height: 100vh;
   align-items: center;
   width: 100%;
 `;

@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript"
+  ],
+  "parser": "@typescript=eslint/parser",
+  "parserOptions": {}
+}

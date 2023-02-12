@@ -8,8 +8,8 @@ const MapComponent = () => {
 
   const ref = useRef<HTMLDivElement>(null);
   const [map, setMap] = useState<google.maps.Map>();
-  const [iscontain, setIsContain] = useState<boolean>(false);
-  const [, setZoom] = useState<number>();
+  const [iscontain, setIsContain] = useState<Boolean>(false);
+  const [zoom, setZoom] = useState<number>();
 
   const center: google.maps.LatLngLiteral = {
     lat: 0,
