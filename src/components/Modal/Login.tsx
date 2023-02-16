@@ -1,37 +1,24 @@
 import { Button } from '@mui/material';
 import styled from 'styled-components';
-import TextField from '@mui/material/TextField';
 import { SigninGoogle } from '../Login/SignInGoogle';
 export default function LoginModal() {
   return (
     <>
       <StyledLogin>
         <StyledHeader>Login</StyledHeader>
-        <StyledBody>
-          <TextField
-            id="outlined-basic"
-            label="Email"
-            variant="outlined"
-            fullWidth
-            size="small"
-          >
-            Email
-          </TextField>
-          <TextField
-            id="outlined-basic"
-            label="Password"
-            variant="outlined"
-            fullWidth
-            size="small"
-          >
-            Password
-          </TextField>
-        </StyledBody>
+        <StyledBody></StyledBody>
         <ButtonAreas>
-          <Button variant="contained" style={{ width: '200px' }}>
+          <Button
+            variant="contained"
+            style={{
+              width: '200px',
+              backgroundColor: 'rgb(66, 133, 244)',
+              color: '#fff',
+              fontWeight: '500',
+            }}
+          >
             Login
           </Button>
-
           <SigninGoogle />
         </ButtonAreas>
       </StyledLogin>
@@ -55,7 +42,7 @@ const StyledLogin = styled.form`
   background-color: #fff;
 `;
 
-const StyledHeader = styled.header`
+const StyledHeader = styled.section`
   display: flex;
   width: 100%;
   justify-content: center;
@@ -70,7 +57,7 @@ const StyledHeader = styled.header`
 const StyledBody = styled.article`
   width: 50%;
   justify-content: center;
-  align-items: center;
+  align-items: space-around;
   display: flex;
   gap: 15px;
   flex-direction: column;

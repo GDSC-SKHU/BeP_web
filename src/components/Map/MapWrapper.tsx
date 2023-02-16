@@ -9,20 +9,12 @@ const Map = ({ children }: { children: JSX.Element }) => {
   if (process.env.NEXT_PUBLIC_MAP_KEY)
     return (
       <StyledMain>
-        <button
-          onClick={() => {
-            setModal(!modal);
-            console.log(modal);
-          }}
-        >
-          aasdasdasdasd
-        </button>
-
         <StyledMapWrapper state={modal}>
           <Wrapper apiKey={process.env.NEXT_PUBLIC_MAP_KEY}>
             <MapComponent />
           </Wrapper>
         </StyledMapWrapper>
+
         {modal && children}
       </StyledMain>
     );
@@ -34,6 +26,7 @@ const StyledMapWrapper = styled.div<{ state: boolean }>`
   ${({ state }) => state === false && StyledModal}
   width:100%;
   height: 100vh;
+  margin-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;

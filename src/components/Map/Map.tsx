@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 import swal from 'sweetalert';
 import styled from 'styled-components';
-import msg from '@/src/constants/mapConstants';
+import msg from '../../constants/mapConstants';
 
 const MapComponent = () => {
   //미션 성공 여부 전역적으로 관리해야 함
@@ -55,8 +55,8 @@ const MapComponent = () => {
 };
 
 const MapArea = styled.div`
-  width: 1200px;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
