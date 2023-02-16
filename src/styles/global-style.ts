@@ -127,7 +127,7 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration:none;
   }
   a:hover {
-    color:#000;
+    
     text-decoration:none;
   }
   *, :after, :before {
