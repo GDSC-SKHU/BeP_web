@@ -121,11 +121,14 @@ width:80%;margin:0 auto">
 <br />
   <img src = "https://user-images.githubusercontent.com/59411107/228603992-3a75758e-78a7-4208-a992-963d3241c10f.gif" style = "width:480px" />
   
-  ![image](https://github.com/GDSC-SKHU/BeP_web/assets/59411107/27e753e5-b77d-4780-9a36-226a787d14a2)
+  <img src = "https://github.com/GDSC-SKHU/BeP_web/assets/59411107/27e753e5-b77d-4780-9a36-226a787d14a2" style = "width:480px" />
+  ![image])
 
   <img src = "https://user-images.githubusercontent.com/59411107/228608669-99875c2c-e279-4821-862b-e2e2ec9fed85.gif" style = "width:480px" />
   
-  ![image](https://github.com/GDSC-SKHU/BeP_web/assets/59411107/a0fdb13b-fb5a-4e83-b410-0d6243064a31)
+  <img src = "https://github.com/GDSC-SKHU/BeP_web/assets/59411107/a0fdb13b-fb5a-4e83-b410-0d6243064a31" style = "width:480px" />
+  
+ 
 
   </div>
 <br />
