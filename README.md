@@ -30,7 +30,7 @@ width:80%;margin:0 auto">
 
 <div align="center">
  
-<a href = "https://www.youtube.com/watch?v=m_RKW9Qr6vo">[![](http://img.youtube.com/vi/eIh8eERBSR4/0.jpg)](https://youtu.be/eIh8eERBSR4?t=0s)
+<a href = "https://www.youtube.com/watch?v=m_RKW9Qr6vo">[![](http://img.youtube.com/vi/eIh8eERBSR4/0.jpg)](https://www.youtube.com/watch?v=m_RKW9Qr6vo)
 </a>
 
 </div>
