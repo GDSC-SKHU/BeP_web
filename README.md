@@ -30,10 +30,10 @@ width:80%;margin:0 auto">
 
 ## About our Project
 
-<div align="center"> 
-
-
-<a href = "https://www.youtube.com/watch?v=eIh8eERBSR4">[![](http://img.youtube.com/vi/eIh8eERBSR4/0.jpg)](https://youtu.be/eIh8eERBSR4?t=0s)  </a>
+<div align="center">
+ 
+<a href = "https://www.youtube.com/watch?v=m_RKW9Qr6vo">[![](http://img.youtube.com/vi/eIh8eERBSR4/0.jpg)](https://youtu.be/eIh8eERBSR4?t=0s)
+</a>
 
 </div>
 
@@ -65,6 +65,11 @@ width:80%;margin:0 auto">
 
 <hr />
 
+## Our architecture
+![image](https://github.com/GDSC-SKHU/BeP_web/assets/59411107/50ef4d5a-013f-406d-828c-7ff3b941cd6c)
+
+
+
 ## Google Tech we use
 
 <h3>We opted for Google Cloud Platform due to its exceptional stability and scalability, and its provision of diverse features such as Google Maps API and Firebase.</h3>
@@ -88,13 +93,20 @@ width:80%;margin:0 auto">
 ## Firebase
 
 <h3>To authorize user easily and conveniently, we use Firebase. Firebase provides an easy way to authorize users using various authentication methods such as email and password, social media login, and phone number verification. Once a user is authenticated, Firebase provides methods to retrieve the unique identifier for that user, also known as a UID (User ID). Due to these reasons, we use Firebase.</h3>
+
+<br />
+
+## Google Cloud Run
+
+<h3>To build a serverless environment to simplify management, enable continuous deployment, and achieve cost efficiency. Google Cloud Run provided us with the architecture to realize these goals.</h3>
+
 <br />
 <!-- Features -->
 <hr />
 
 ## Database ERD
 
-<img src = "https://user-images.githubusercontent.com/63100425/227961116-42bd865b-8211-4fe6-871e-d7ad0ce935c3.png" />
+![image](https://github.com/GDSC-SKHU/BeP_web/assets/59411107/45e20cf0-c6d4-414c-a66e-4da801a762aa)
 <br />
 <hr />
 
@@ -103,10 +115,17 @@ width:80%;margin:0 auto">
 <p> When users access the site, they click the bottom Earth Icon, and then get three missons. </p>
 <p>The missons is divided in to categories. Climate Action, Life Below Water, Life On Land and Other. When user click the misson, the misson point will appear.</p>
 <p>When user clear the misson, the Detail of the misson will apear. User can donate their points in Categories.When click top Menu icon, You can easily see Points by Category</p>
+<p>User can communicate with our Chat</p>
 
 <br />
   <img src = "https://user-images.githubusercontent.com/59411107/228603992-3a75758e-78a7-4208-a992-963d3241c10f.gif" style = "width:480px" />
+  
+  ![image](https://github.com/GDSC-SKHU/BeP_web/assets/59411107/27e753e5-b77d-4780-9a36-226a787d14a2)
+
   <img src = "https://user-images.githubusercontent.com/59411107/228608669-99875c2c-e279-4821-862b-e2e2ec9fed85.gif" style = "width:480px" />
+  
+  ![image](https://github.com/GDSC-SKHU/BeP_web/assets/59411107/a0fdb13b-fb5a-4e83-b410-0d6243064a31)
+
   </div>
 <br />
 
@@ -120,6 +139,7 @@ width:80%;margin:0 auto">
 <div style = "font-size:15px">[O] Users who successfully complete missions can earn points.</div>
 <div style = "font-size:15px">[O] Users can donate their points to any Sustainable Development Goal of their choice.</div>
 <div style = "font-size:15px">[O] Users can track the total donation points in a graph that displays the progress made so far.</div>
+<div style = "font-size:15px">[O] <b>Users can communicate with Others with Chat</b></div>
 <div style = "font-size:15px">[X] <b>Establish connections with donor organizations</b></div>
 <div style = "font-size:15px">[X] <b>Allows users to create and share their own quizzes.</b></div>
 
@@ -142,3 +162,4 @@ width:80%;margin:0 auto">
 |              [@MojitoBar](https://github.com/MojitoBar)               |               [@hanni66](https://github.com/hanni66)               |              [@kikingki](https://github.com/kikingki)              |               [@khj0426](https://github.com/khj0426)               |
 
 <br />
+
