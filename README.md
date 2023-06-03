@@ -10,7 +10,8 @@
 <h2>
     <a href="https://betterplanet.vercel.app/">View in Web</a>
   <span> · </span>
-    <a href="https://bepserver.duckdns.org/swagger-ui/index.html">Documentation</a>
+ 
+    <a href="https://bep-server-skr6jumqta-uc.a.run.app/swagger-ui/index.html">Documentation</a>
   <span> · </span>
     <a href="https://github.com/GDSC-SKHU/Solution-Challenge-6-Web/issues">Report Bug</a>
   </h2>
